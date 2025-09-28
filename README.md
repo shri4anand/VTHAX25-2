@@ -24,6 +24,12 @@ This repository contains the Woke platform frontend and backend. Users can brows
 
 
 ### 2. Setup Backend
+- Type into terminal
+   ```
+   cd backend copy
+   ```
+- or right-click the folder "backend copy" and click "Open in Terminal"
+   
 - Create Virtual Environment : python -m venv venv
 - Activate it:
  ```
