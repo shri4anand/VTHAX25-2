@@ -7,7 +7,7 @@ from pydantic import BaseModel
 from typing import Optional, Dict, Any
 import os
 from ai_integration import classify_service_request, get_service_followups, match_providers
-# from uber_like_booking_system import UberLikeBookingSystem
+
 
 load_dotenv()
 app = FastAPI(
@@ -33,8 +33,7 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-# Initialize Uber-like booking system (temporarily disabled)
-# booking_system = UberLikeBookingSystem()
+
 
 # --------------------------
 # Schemas
