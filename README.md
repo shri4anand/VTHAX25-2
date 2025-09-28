@@ -33,7 +33,8 @@ This repository contains the Woke platform frontend and backend. Users can brows
 - Create Virtual Environment : python -m venv venv
 - Activate it:
  ```
-venv\Scripts\activate               #  Windows
+python -m venv venv
+.\venv\Scripts\activate               #  Windows
 source venv/bin/activate            #  macOS/Linux
 ```
 - Install dependencies:
