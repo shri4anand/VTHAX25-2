@@ -1,4 +1,4 @@
-# Woke AI Platform
+# Woke Platform
 
 **Premium in-house services with AI-powered matching.**  
 This repository contains the Woke platform frontend and backend. Users can browse service providers, book tasks, and manage bookings. The backend uses FastAPI and Supabase for database and authentication, while the frontend is built with HTML, TailwindCSS, and JavaScript.
@@ -56,7 +56,9 @@ source venv/bin/activate            #  macOS/Linux
  ```
 uvicorn main:app --reload
 ```
-
+### 3. Opening index.file
+- Direct to frontend copy -> index file
+- Right-click the file and open in a new tab/window
 
 
 
