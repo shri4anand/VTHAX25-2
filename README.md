@@ -42,14 +42,11 @@ source venv/bin/activate            #  macOS/Linux
   ```
 - If the step above doesn't work, copy and paste this statement into the venv:
   ```
-      pip install fastapi==0.111.1
-      pip install uvicorn==0.23.2
-      pip install python-dotenv==1.0.1
-      pip install supabase==1.0.0
-      pip install pydantic==2.7.0
-      pip install typing-extensions==4.7.1
-      pip install requests==2.31.0
-      pip install aiohttp==3.9.5
+      pip install fastapi uvicorn python-dotenv supabase pydantic "python-jose[cryptography]"
+      python.exe -m pip install --upgrade pip
+      pip install ipython black
+      pip install python-jose python-dotenv
+  
   ```
 
 - Run your backend:
